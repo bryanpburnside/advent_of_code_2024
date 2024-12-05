@@ -1,0 +1,64 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go vendor directory (if you use `go mod vendor`)
+/vendor/
+
+# Dependency directories (alternative dependency managers)
+Godeps/
+
+# Output of the Go toolchain
+*.a
+*.o
+*.cgo*
+
+# Test binary
+*.test
+
+# Go build cache
+/tmp/
+
+# Generated files
+*.gen.go
+
+# Logs and debug output
+*.log
+
+# Environment variables file
+.env
+
+# IDEs and editors
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Emacs
+*~
+
+# Vim
+*.swp
+*.swo
+.sess/
+
+# MacOS Finder files
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# User-specific files
+*.sw?
